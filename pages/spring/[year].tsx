@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { SeasonsPageContent } from '../../components/domains/seasons/SeasonsPageContent'
 import { MediaSeason } from '../../generated/graphql'
 
-const WinterPage: NextPage<{}> = () => {
+const SpringPage: NextPage<{}> = () => {
   const router = useRouter()
   const { year } = router.query
 
@@ -11,7 +11,7 @@ const WinterPage: NextPage<{}> = () => {
     return null
   }
 
-  return <SeasonsPageContent season={MediaSeason.Winter} year={Math.floor(Number(year))} />
+  return <SeasonsPageContent season={MediaSeason.Spring} year={Math.floor(Number(year))} />
 }
 
-export default WinterPage
+export default SpringPage

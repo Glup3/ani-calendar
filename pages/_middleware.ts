@@ -1,7 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server'
-import { getSeasonFromDate, getYearFromDate } from '../lib/seasonUtils'
+import { NextResponse } from 'next/server'
 
-export function middleware(req: NextRequest) {
+export function middleware() {
   // const { pathname } = req.nextUrl
 
   // if (pathname === '/') {
