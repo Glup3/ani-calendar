@@ -12,6 +12,7 @@ export const CommonPageLayout: FunctionComponent<CommonPageLayoutProps> = ({ chi
   return (
     <div
       sx={{
+        fontFamily: 'body',
         display: 'flex',
         flexDirection: 'column',
         minHeight: 256,

@@ -2,8 +2,8 @@ import { Theme } from 'theme-ui'
 
 export const theme: Theme = {
   fonts: {
-    body: 'system-ui, sans-serif',
-    heading: 'sans-serif',
+    body: 'system-ui, sans-serif, Arial',
+    heading: 'sans-serif, Arial',
     monospace: 'monospace',
   },
   colors: {
